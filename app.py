@@ -67,8 +67,8 @@ async def bfhl_post(input_data: InputData):
     highest_alphabet = [max(alphabets)] if alphabets else []
 
     response_data = {
-        "user_id" : "Niraj_Patidar_10012001",
-        "email" : "Niraj.patidar2020@vitbhopal.ac.in",
+        "user_id" : "niraj_patidar_10012001",
+        "email" : "niraj.patidar2020@vitbhopal.ac.in",
         "roll_number" : "20BAI10273",
         "numbers" : numbers,
         "alphabets": alphabets,
