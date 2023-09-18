@@ -33,3 +33,8 @@ async def list_items():
 @app.post("/items/")
 async def create_item(item: Item):
     return item
+
+
+@app.get("/bfhl")
+async def hello():
+    return "Hello world"
